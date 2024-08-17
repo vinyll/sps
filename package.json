@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bin": {
+    "sps": "node servers.js"
+  },
+
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "sps",
+  "description": "Single Page Server for serving Single Page Apps",
+  "keywords": [
+    "SPA",
+    "Single Page App",
+    "server"
+  ],
+  "main": "index.js",
+  "module": "index.js"
+}
